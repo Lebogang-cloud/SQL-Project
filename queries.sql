@@ -8,7 +8,7 @@ SELECT FirstName
 FROM Customers
 WHERE CustomerID=1;
 
-UPDATE Customers SET FirstName='Nothile' WHERE CustomerID=1;
+UPDATE Customers SET FirstName= 'Lerato Mabitso' WHERE CustomerID=1;
 
 DELETE FROM Customers WHERE CustomerID=2;
 
@@ -18,8 +18,8 @@ FROM Orders;
 SELECT MAX(Amount)
 FROM Payments;
 
-select *
-FROM Customers
+
+SELECT FROM Customers
 ORDER BY Country ASC;
 
 select *

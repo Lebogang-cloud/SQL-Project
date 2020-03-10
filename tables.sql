@@ -69,7 +69,7 @@ VALUES
     (5, 2, '03/09/2018', '150.75'),
     (4, 3, '03/09/2018', '700.60');
 INSERT INTO Orders
-    (OrderID, ProductID, PaymentID, EmployeeID, DateRequired, DateShipped, Status)
+    (OrderID, ProductID, PaymentID, FulfilledByEmployeeID , DateRequired, DateShipped, Status)
 VALUES
     (1, 1, 1, 2, '05/09/2018', NULL, 'Not Shipped'),
     (2, 1, 2, 2, '04/09/2018', '03/09/2018', 'Shipped'),
