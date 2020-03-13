@@ -1,3 +1,5 @@
+create database Umuzi
+
 create table Customers(
 CustomerID serial primary key,
 FirstName varchar(50),

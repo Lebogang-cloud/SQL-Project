@@ -8,7 +8,7 @@ SELECT FirstName
 FROM Customers
 WHERE CustomerID=1;
 
-UPDATE Customers SET FirstName= 'Lerato Mabitso' WHERE CustomerID=1;
+UPDATE Customers SET FirstName = 'Lerato Mabitso' WHERE CustomerID=1;
 
 DELETE FROM Customers WHERE CustomerID=2;
 
@@ -19,37 +19,37 @@ SELECT MAX(Amount)
 FROM Payments;
 
 
-SELECT FROM Customers
+SELECT * FROM Customers
 ORDER BY Country ASC;
 
-select *
-from products
-where BuyPrice between '100' and '600';
+SELECT *
+FROM  products
+WHERE BuyPrice between '100' and '600';
 
-select *
-from customers
+SELECT *
+FROM  customers
 WHERE city='BERLIN'
     AND country='GERMANY';
 
-select *
-from customers
+SELECT *
+FROM  customers
 WHERE city='CAPE TOWN'
     or city='DURBAN';
 
-select *
-from products
+SELECT *
+FROM  products
 WHERE BuyPrice > '500';
 
-select SUM(amount)
+SELECT SUM(Amount)
 FROM payments;
 
-select count(*)
-from orders
-where status='Shipped';
+SELECT count(*)
+FROM  orders
+WHERE status='Shipped';
 
 
-select AVG(BuyPrice)
-from products;
+SELECT AVG(BuyPrice)
+FROM  products;
 
 SELECT Customers.CustomerID, Payments.PaymentID
 FROM Customers
