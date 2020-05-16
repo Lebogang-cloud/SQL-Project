@@ -1,4 +1,4 @@
-create database Umuzi
+create database Umuzi;
 
 create table Customers(
 CustomerID serial primary key,
